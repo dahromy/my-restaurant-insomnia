@@ -1,0 +1,35 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c6c02ec6f
+type: Request
+parentId: fld_8888217086ed426fbdeb815b62e4dfad
+modified: 1675327054470
+created: 1675326527257
+url: "{{ base_url }}/api/menus"
+name: Creates a Menu resource.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "description": "string",
+      "price": 0,
+      "timing": "string",
+      "category": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527257
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

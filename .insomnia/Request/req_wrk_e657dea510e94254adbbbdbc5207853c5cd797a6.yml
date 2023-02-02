@@ -1,0 +1,27 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c5cd797a6
+type: Request
+parentId: fld_2b6506f0d1c7454485c075e841de23b2
+modified: 1675326743460
+created: 1675326527295
+url: "{{ base_url }}/api/companies/{{ id }}/menu-categories"
+name: Retrieves a Company resource menu categories (MenuCategory).
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "1"
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527030
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

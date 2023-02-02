@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853ca7b1a6cc
+type: Request
+parentId: fld_b5debb56ad9840a09f7f560293bb2633
+modified: 1675327093764
+created: 1675326527239
+url: "{{ base_url }}/api/orders/{{ id }}"
+name: Retrieves a Order resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527192
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

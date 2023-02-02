@@ -1,0 +1,43 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853cd760f373
+type: Request
+parentId: fld_b5debb56ad9840a09f7f560293bb2633
+modified: 1675327091911
+created: 1675326527242
+url: "{{ base_url }}/api/orders"
+name: Creates a Order resource.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": "string",
+      "place": {
+        "table": "string",
+        "places": 0
+      },
+      "ticket": "string",
+      "items": [
+        {
+          "menu": "string",
+          "quantity": 0
+        }
+      ],
+      "company": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527242
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

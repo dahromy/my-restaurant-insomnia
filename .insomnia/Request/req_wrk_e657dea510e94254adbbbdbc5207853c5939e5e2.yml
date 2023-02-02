@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c5939e5e2
+type: Request
+parentId: fld_b31f52596d88403abcaf275bcf6bde52
+modified: 1675327131283
+created: 1675326527208
+url: "{{ base_url }}/api/subscription-plans/{{ id }}"
+name: Retrieves a SubscriptionPlan resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527121
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

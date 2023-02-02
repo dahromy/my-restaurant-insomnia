@@ -1,0 +1,31 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853ce8160e91
+type: Request
+parentId: fld_59fa7ce72cee4152910f2f27802bce1f
+modified: 1675326778508
+created: 1675326527346
+url: "{{ base_url }}/api/activities/{{ id }}"
+name: Replaces the Activity resource.
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527216
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

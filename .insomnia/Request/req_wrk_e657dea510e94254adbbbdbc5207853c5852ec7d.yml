@@ -1,0 +1,33 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c5852ec7d
+type: Request
+parentId: fld_1d97c24f3a0041f7a0ec5a4e8c2b986e
+modified: 1675327152601
+created: 1675326527194
+url: "{{ base_url }}/api/subscription-services/{{ id }}"
+name: Replaces the SubscriptionService resource.
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "price": 0,
+      "description": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527051
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

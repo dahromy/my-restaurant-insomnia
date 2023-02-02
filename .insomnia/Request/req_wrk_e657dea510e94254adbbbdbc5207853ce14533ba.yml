@@ -1,0 +1,31 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853ce14533ba
+type: Request
+parentId: fld_88184735aca44e32bbdb7ebc17241971
+modified: 1675327005769
+created: 1675326527267
+url: "{{ base_url }}/api/ingredients/{{ id }}"
+name: Replaces the Ingredient resource.
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527170
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

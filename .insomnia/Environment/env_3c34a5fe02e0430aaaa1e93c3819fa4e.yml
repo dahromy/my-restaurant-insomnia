@@ -1,0 +1,23 @@
+_id: env_3c34a5fe02e0430aaaa1e93c3819fa4e
+type: Environment
+parentId: env_a646362c1059814ff4b66eb48e866c02f5b5fb49
+modified: 1675328312159
+created: 1675326182786
+name: preprod
+data:
+  scheme:
+    - http
+  base_path: ""
+  host: my-restaurant.my-preprod.space
+  bearerToken: bearerToken
+  base_url: "{{ _.scheme[0] }}://{{ _.host }}{{ _.base_path }}"
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - bearerToken
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1675326182786

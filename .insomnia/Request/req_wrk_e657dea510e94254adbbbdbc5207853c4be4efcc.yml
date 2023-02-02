@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c4be4efcc
+type: Request
+parentId: fld_dfd2fb741a2c40c4b542e88855722969
+modified: 1675326803789
+created: 1675326527341
+url: "{{ base_url }}/api/areas/{{ id }}"
+name: Retrieves a Area resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527293
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

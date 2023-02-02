@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853cd1401fbd
+type: Request
+parentId: fld_36565283568a4e118ed24220a29bf590
+modified: 1675327112131
+created: 1675326527228
+url: "{{ base_url }}/api/payment-types/{{ id }}"
+name: Retrieves a PaymentType resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527135
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

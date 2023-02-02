@@ -1,0 +1,36 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c8d943cd5
+type: Request
+parentId: fld_bde3844093f34407854ec546a6d501b0
+modified: 1675327202005
+created: 1675326527178
+url: "{{ base_url }}/api/users"
+name: Creates a User resource.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "string",
+      "email": "user@example.com",
+      "firstName": "string",
+      "lastName": "string",
+      "password": "string",
+      "confirmPassword": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527131
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

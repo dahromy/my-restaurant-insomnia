@@ -1,0 +1,27 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c4491c1b8
+type: Request
+parentId: fld_bde3844093f34407854ec546a6d501b0
+modified: 1675327199413
+created: 1675326527181
+url: "{{ base_url }}/api/users"
+name: Retrieves the collection of User resources.
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "1"
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527181
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

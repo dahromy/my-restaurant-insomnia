@@ -1,0 +1,33 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c7aac27e4
+type: Request
+parentId: fld_f51a1972fbef4983a005f12b8e319a39
+modified: 1675327027954
+created: 1675326527263
+url: "{{ base_url }}/api/menu-categories"
+name: Creates a MenuCategory resource.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "description": "string",
+      "company": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527263
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

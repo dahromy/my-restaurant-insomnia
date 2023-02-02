@@ -1,0 +1,29 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c8b5b5717
+type: Request
+parentId: fld_61d544dbe3674c8fa91026e102c6e069
+modified: 1675326587230
+created: 1675326527334
+url: "{{ base_url }}/api/auth/login"
+name: Get JWT token to login.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "anusername",
+      "password": "apassword"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675326527335
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

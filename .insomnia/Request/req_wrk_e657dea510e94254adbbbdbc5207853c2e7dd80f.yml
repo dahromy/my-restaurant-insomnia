@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c2e7dd80f
+type: Request
+parentId: fld_ec6dc22060cb48c3bd3c7b1f71c903f5
+modified: 1675327077455
+created: 1675326527249
+url: "{{ base_url }}/api/order-status/{{ id }}"
+name: Retrieves a OrderStatus resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527153
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

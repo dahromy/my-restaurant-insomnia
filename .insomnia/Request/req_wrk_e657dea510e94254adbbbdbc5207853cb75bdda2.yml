@@ -1,0 +1,32 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853cb75bdda2
+type: Request
+parentId: fld_88184735aca44e32bbdb7ebc17241971
+modified: 1675327001346
+created: 1675326527270
+url: "{{ base_url }}/api/ingredients"
+name: Creates a Ingredient resource.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "company": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

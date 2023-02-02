@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853cd94340d0
+type: Request
+parentId: fld_0759d5df7e044cc8881673f2ca8ad988
+modified: 1675326985069
+created: 1675326527277
+url: "{{ base_url }}/api/currencies/{{ id }}"
+name: Retrieves a Currency resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527209
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

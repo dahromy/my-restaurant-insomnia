@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853cffc9e817
+type: Request
+parentId: fld_6e2cd6a4a7cf4c16bec327d797a2d63d
+modified: 1675326932519
+created: 1675326527289
+url: "{{ base_url }}/api/company-configurations/{{ id }}"
+name: Retrieves a CompanyConfiguration resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527237
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

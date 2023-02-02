@@ -1,0 +1,39 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c9f2205e6
+type: Request
+parentId: fld_b31f52596d88403abcaf275bcf6bde52
+modified: 1675327133256
+created: 1675326527203
+url: "{{ base_url }}/api/subscription-plans/{{ id }}"
+name: Replaces the SubscriptionPlan resource.
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "price": 0,
+      "subscriptionServices": [
+        {
+          "name": "string",
+          "price": 0,
+          "description": "string"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527071
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

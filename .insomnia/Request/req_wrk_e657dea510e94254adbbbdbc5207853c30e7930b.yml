@@ -1,0 +1,33 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c30e7930b
+type: Request
+parentId: fld_847d88b188494cbdaef841f1e4599681
+modified: 1675327165699
+created: 1675326527192
+url: "{{ base_url }}/api/table-positions"
+name: Creates a TablePosition resource.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "position": 0,
+      "area": "string",
+      "table": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675327152650
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

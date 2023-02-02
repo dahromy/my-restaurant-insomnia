@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c37338969
+type: Request
+parentId: fld_2b6506f0d1c7454485c075e841de23b2
+modified: 1675326730204
+created: 1675326527327
+url: "{{ base_url }}/api/companies/{{ id }}"
+name: Retrieves a Company resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527280
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

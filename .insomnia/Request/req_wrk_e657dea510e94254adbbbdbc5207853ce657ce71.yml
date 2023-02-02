@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853ce657ce71
+type: Request
+parentId: fld_59fa7ce72cee4152910f2f27802bce1f
+modified: 1675326776933
+created: 1675326527347
+url: "{{ base_url }}/api/activities/{{ id }}"
+name: Retrieves a Activity resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527266
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

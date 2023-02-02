@@ -1,0 +1,34 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c0c97bf7c
+type: Request
+parentId: fld_dfd2fb741a2c40c4b542e88855722969
+modified: 1675326801873
+created: 1675326527343
+url: "{{ base_url }}/api/areas"
+name: Creates a Area resource.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "capacity": 0,
+      "description": "string",
+      "company": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527343
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

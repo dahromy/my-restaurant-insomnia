@@ -1,0 +1,33 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853cc4055edc
+type: Request
+parentId: fld_1e40434d5a3f4b768c086df98391f221
+modified: 1675327188086
+created: 1675326527183
+url: "{{ base_url }}/api/tables/{{ id }}"
+name: Replaces the Table resource.
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "capacity": 0,
+      "area": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527088
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

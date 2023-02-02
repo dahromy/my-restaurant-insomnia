@@ -1,0 +1,38 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853cba2c5666
+type: Request
+parentId: fld_6e2cd6a4a7cf4c16bec327d797a2d63d
+modified: 1675326934381
+created: 1675326527291
+url: "{{ base_url }}/api/company-configurations"
+name: Creates a CompanyConfiguration resource.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "openingTime": "2023-02-02T08:28:47.142Z",
+      "closingTime": "2023-02-02T08:28:47.142Z",
+      "capital": 0,
+      "currency": "string",
+      "company": "string",
+      "paymentTypes": [
+        "string"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527187
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

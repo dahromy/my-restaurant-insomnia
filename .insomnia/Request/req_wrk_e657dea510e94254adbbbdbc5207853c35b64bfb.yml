@@ -1,0 +1,31 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c35b64bfb
+type: Request
+parentId: fld_ec6dc22060cb48c3bd3c7b1f71c903f5
+modified: 1675327075167
+created: 1675326527251
+url: "{{ base_url }}/api/order-status"
+name: Creates a OrderStatus resource.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527203
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

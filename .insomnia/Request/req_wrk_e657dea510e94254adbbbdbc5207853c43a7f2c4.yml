@@ -1,0 +1,33 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c43a7f2c4
+type: Request
+parentId: fld_1e40434d5a3f4b768c086df98391f221
+modified: 1675327181975
+created: 1675326527188
+url: "{{ base_url }}/api/tables"
+name: Creates a Table resource.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "capacity": 0,
+      "area": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853c28913db5
+type: Request
+parentId: fld_8888217086ed426fbdeb815b62e4dfad
+modified: 1675327056529
+created: 1675326527256
+url: "{{ base_url }}/api/menus/{{ id }}"
+name: Retrieves a Menu resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527207
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

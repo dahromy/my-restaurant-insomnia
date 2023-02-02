@@ -1,0 +1,23 @@
+_id: env_bb1613d3dd934247a7c4ac9760cac413
+type: Environment
+parentId: env_a646362c1059814ff4b66eb48e866c02f5b5fb49
+modified: 1675327477882
+created: 1675326161182
+name: local
+data:
+  scheme:
+    - http
+  base_path: ""
+  host: back.my-restaurant.loc
+  bearerToken: bearerToken
+  base_url: "{{ _.scheme[0] }}://{{ _.host }}{{ _.base_path }}"
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - bearerToken
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1675326161182

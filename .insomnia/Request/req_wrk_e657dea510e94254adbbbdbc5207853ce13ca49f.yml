@@ -1,0 +1,27 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853ce13ca49f
+type: Request
+parentId: fld_1d97c24f3a0041f7a0ec5a4e8c2b986e
+modified: 1675327146919
+created: 1675326527201
+url: "{{ base_url }}/api/subscription-services"
+name: Retrieves the collection of SubscriptionService resources.
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "1"
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527201
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: fld_0759d5df7e044cc8881673f2ca8ad988
+type: RequestGroup
+parentId: wrk_e657dea510e94254adbbbdbc5207853c
+modified: 1675326978184
+created: 1675326978184
+name: Currency
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1675326978184

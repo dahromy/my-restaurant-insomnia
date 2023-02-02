@@ -1,0 +1,24 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853ced33299f
+type: Request
+parentId: fld_847d88b188494cbdaef841f1e4599681
+modified: 1675327168391
+created: 1675326527190
+url: "{{ base_url }}/api/table-positions/{{ id }}"
+name: Retrieves a TablePosition resource.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675327152600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

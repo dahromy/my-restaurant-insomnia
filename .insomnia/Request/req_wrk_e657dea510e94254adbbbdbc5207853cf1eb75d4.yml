@@ -1,0 +1,32 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853cf1eb75d4
+type: Request
+parentId: fld_f51a1972fbef4983a005f12b8e319a39
+modified: 1675327032279
+created: 1675326527260
+url: "{{ base_url }}/api/menu-categories/{{ id }}"
+name: Replaces the MenuCategory resource.
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "description": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527163
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

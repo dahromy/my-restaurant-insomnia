@@ -1,0 +1,31 @@
+_id: req_wrk_e657dea510e94254adbbbdbc5207853ceb818408
+type: Request
+parentId: fld_36565283568a4e118ed24220a29bf590
+modified: 1675327114243
+created: 1675326527225
+url: "{{ base_url }}/api/payment-types/{{ id }}"
+name: Replaces the PaymentType resource.
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1675326527085
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
